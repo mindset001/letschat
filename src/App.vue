@@ -12,7 +12,8 @@
       <div class="form-inner">
 		<h1>Letschat</h1>
         
-		<img src="https://res.cloudinary.com/mindset/image/upload/v1629983828/48405-mobile-chat-dialog-application-interface_pie0y3.gif" alt="" style="height:40%; margin-left:25%; width:50%;">
+		<img src="https://res.cloudinary.com/mindset/image/upload/v1629983828/48405-mobile-chat-dialog-application-interface_pie0y3.gif" alt="" 
+      style="height:70%;  margin-left:25%; width:60%; margin-top:-80px;">
 		<h2>Login </h2>
         <label for="username">Username</label>
         <input
@@ -142,6 +143,7 @@ export default {
 		align-items: center;
 		.login-form {
 			display: flex;
+      position: absolute;
       justify-content: center;
 			width: 100%;
 			padding: 15px;
@@ -175,7 +177,6 @@ export default {
 					transition: 0.4s;
 				}
 				input[type="text"] {
-					appearance: none;
 					border: none;
 					outline: none;
 					background: none;
@@ -196,7 +197,6 @@ export default {
 					}
 				}
 				input[type="submit"] {
-					appearance: none;
 					border: none;
 					outline: none;
 					background: none;
@@ -235,7 +235,6 @@ export default {
 				position: absolute;
 				top: 15px;
 				right: 15px;
-				appearance: none;
 				border: none;
 				outline: none;
 				background: none;
@@ -303,7 +302,6 @@ export default {
 				display: flex;
 				input[type="text"] {
 					flex: 1 1 100%;
-					appearance: none;
 					border: none;
 					outline: none;
 					background: none;
@@ -324,7 +322,6 @@ export default {
 				}
 				
 				input[type="submit"] {
-					appearance: none;
 					border: none;
 					outline: none;
 					background: none;
